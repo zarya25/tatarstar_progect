@@ -1,0 +1,1077 @@
+/* СТИЛЬ ДЛЯ ВСЕГО */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Unbounded-Regular';
+    scroll-behavior: smooth;
+    color: #333;
+}
+/* ШРИФТЫ */
+@font-face {
+    font-family: 'Unbounded-Bold';
+    src: url(../fonts/Unbounded/Unbounded-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Unbounded-Light';
+    src: url(../fonts/Unbounded/Unbounded-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Unbounded-Regular';
+    src: url(../fonts/Unbounded/Unbounded-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FDF6F2;
+
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+h2 {
+    font-size: 24px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Unbounded-Bold';
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+/* ШАПКА */
+
+header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo p {
+    color: #333;
+    font-size: 35px;
+    font-family: 'Unbounded-Bold';
+}
+
+.header-nav {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    font-size: 16px;
+    font-family: 'Unbounded-Regular';
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.icons form {
+    position: relative;
+}
+
+.icons input {
+    padding: 10px;
+    border-radius: 40px;
+    font-family: 'Unbounded-Regular', Courier, monospace;
+    background-color: transparent;
+    font-size: 12px;
+    color: black;
+}
+
+.icons ::placeholder {
+    color: black;
+}
+
+.icons form img {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.icons {
+    gap: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    position: relative;
+}
+
+.sale {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40%;
+    margin-bottom: -50px;
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    font-family: 'Unbounded-Bold';
+}
+
+h3 {
+    color: white;
+    font-size: 32px;
+    font-family: 'Unbounded-Regular';
+}
+/* БАННЕР */
+.banner button {
+    color: white;
+    padding: 10px 15px;
+    font-size: 32px;
+    border-radius: 15px;
+    border: 4px solid white;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+
+.categorii {
+    background: url(../media/novinki/vector.png) center;
+    background-size: cover;
+}
+
+.novinki {
+    display: flex;
+    gap: 20px;
+}
+
+.new {
+    position: relative;
+}
+
+.new img{
+    border-radius: 30px;
+}
+
+.new p {
+    color: black;
+    background-color: white;
+    padding: 8px 30px;
+    border-radius: 30px;
+    width: 174px;
+    font-size: 20px;
+    font-family: 'Unbounded-Bold';
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.now-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.now-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 85px;
+}
+
+.he {
+    position: relative;
+}
+
+.he p  {
+    color: black;
+    background-color: white;
+    padding: 8px 26px;
+    border-radius: 30px;
+    width: 174px;
+    font-size: 20px;
+    font-family: 'Unbounded-Bold';
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+}
+
+.she {
+    position: relative;
+}
+
+.she p  {
+    color: black;
+    background-color: white;
+    padding: 8px 26px;
+    border-radius: 30px;
+    width: 174px;
+    font-size: 20px;
+    font-family: 'Unbounded-Bold';
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+}
+
+.now-items h2 {
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+    font-family: 'Unbounded-Regular';
+    margin-bottom: 83px;
+}
+
+.perehod {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Unbounded-Bold';
+    color: #333;
+    text-align: left;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    width: 1114px;
+}
+
+.perehod button {
+    background-color: #333;
+    color: white;
+    font-size: 32px;
+    font-family: 'Unbounded-Bold';
+    padding: 13px 42px;
+    border-radius: 15px;
+    border: none;
+}
+
+.perehod p {
+    color: #333;
+    font-size: 20px;
+    font-family: 'Unbounded-Light';
+    width: 60%;
+}
+
+.line-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.line-block hr {
+    width: 8500px;
+    border: 2px solid #333;
+}
+
+/* АКТУАЛЬНЫЕ ТОВАРЫ */
+
+.card-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DED4CB;
+    border-radius: 15px;
+    width: 340px;
+    height: 541px;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.card-item h3 {
+    font-size: 28px;
+    font-family: 'Unbounded-Bold';
+    color: #333;
+}
+
+.card-item h4 {
+    font-size: 18px;
+    font-family: 'Unbounded-Light';
+    color: #333;
+    text-align: center;
+}
+
+.card-item h4 span {
+    font-size: 20px;
+}
+
+.card-item h5 {
+    color: #333;
+    font-size: 28px;
+    font-family: 'Unbounded-Bold';
+}
+.content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+.card-item p {
+    background-color: white;
+    border-radius: 30px;
+    color: #333;
+    font-size: 16px;
+    font-family: 'Unbounded-Bold';
+    padding: 5px 13px;
+    position: absolute;
+    left: 35px;
+    top: 35px;
+}
+
+.card1 h3{
+    margin-top: 80px;
+}
+
+.card2 h3 {
+    margin-top: 80px;
+}
+
+.card4 h3 {
+    margin-top: 50px;
+}
+
+.arrow1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: -120px;
+    z-index: 1000;
+}
+
+.arrow2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 1420px;
+}
+
+
+.line {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 80px;
+}
+/* ФУТЕР */
+.footer-h {
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    padding-bottom: 42px;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.otz-input {
+    border: none;
+    width: 280px;
+    border-bottom: 1px solid #333;
+    color: #7B7B7B;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-family: 'Unbounded-Regular';
+    background-color: transparent;
+}
+
+.otz-input::placeholder {
+    color: #7B7B7B;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-btn {
+    margin-top: 20px;
+    color: #FDF6F2;
+    font-family: 'Unbounded-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    background: #9B9A99;
+    padding: 10px 31px;
+    width: 197px;
+    height: 45px;
+}
+
+.bar-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: start;
+}
+
+.bar-text a {
+    color: #7B7B7B;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 40px;
+}
+
+.tel {
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact-text p {
+    color: #7B7B7B;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.copiread {
+    padding: 20px 0 50px 0;
+    color: #9B9A99;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+/* ТОВАРЫ */
+.tov-hr {
+    width: 1920px;
+}
+
+.foot-hr {
+    width: 1400px;
+    margin: 0 auto;
+    border: 1px solid #333;
+}
+.kroshki {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.kroshki a {
+    color: rgba(51, 51, 51, 0.514);
+    font-size: 20px;
+}
+
+.kroshki  p {
+    color:rgba(51, 51, 51, 0.514) ;
+    font-size: 20px;
+}
+
+.kroshki h4 {
+    color: #333;
+    font-size: 20px;
+}
+
+.kroshki hr {
+    width: 40px;
+    border: 1px solid #9B9A99;
+}
+
+
+.tov-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.tov-images {
+    display: flex;
+    gap: 15px;
+}
+
+.right-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.left-imgs img {
+    cursor: pointer;
+}
+
+.tov-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tov-title {
+    margin-bottom: 20px;
+}
+
+.tov-title h2 {
+    color: #333;
+    font-size: 36px;
+    font-family: 'Unbounded-Bold';
+    margin-bottom: 5px;
+}
+
+.tov-title h3  {
+    color: #333;
+    font-size: 24px;
+    font-family: 'Unbounded-Regular';
+}
+
+.tov-price {
+    display: flex;
+    gap:20px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.tov-price h3 {
+    font-size: 28px;
+    font-family: 'Unbounded-Regular';
+}
+
+.tov-price h4{
+    font-size: 20px;
+    font-family: 'Unbounded-Regular';
+    color: #979797;
+    
+}
+
+.crossline {
+    width: 105px;
+    transform: rotate(-6deg);
+    background-color: #333;
+    height: 2px;
+    position: absolute;
+    left: 150px;
+}
+
+.p {
+    color: #979797;
+    font-size: 20px;
+    font-family: 'Unbounded-Light';
+    margin-bottom: 20px;
+}
+
+.tov-size {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 45px;
+}
+
+.tov-sizes {
+    display: flex;
+    gap:22px;
+    align-items: center;
+}
+
+.tov-sizes button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #283618;
+    padding: 13px 0;
+    width: 102px;
+    font-size: 20px;
+}
+
+.tov-sizes button:focus {
+    border: 1px solid #283618;
+}
+
+.tov-color {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 45px;
+}
+
+.tov-color p{
+    font-size: 19px;
+    color: #283618;
+}
+
+.tov-color div {
+    background-color: black;
+    width: 57px;
+    height: 57px;
+    border: 1px solid #283618;
+}
+
+.bas {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 15px;
+    font-size: 24px;
+    font-family: 'Unbounded-Regular';
+    padding: 10px 20px;
+    margin-bottom: 45px;
+}
+
+.bas:hover {
+    color: white;
+    background-color: #333;
+}
+
+.tov-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.opis {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 19px;
+}
+
+.text {
+    font-size: 17px;
+    font-family: 'Unbounded-Light';
+    text-align: left;
+    width: 543px;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btns button {
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: #DED4CB;
+    color: white;
+    font-size: 28px;
+    font-family: 'Unbounded-Regular';
+}
+
+.btns button:focus {
+    background-color: #333;
+
+}
+/* КОРЗИНА */
+
+.krests { 
+    position: absolute; 
+    left: 35px; 
+    top: 20px; 
+} 
+ 
+.korzina { 
+  position: relative; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin: 0 auto; 
+  justify-content: center; 
+  width: 800px; 
+  height: 602px; 
+} 
+ 
+.korzina h1 { 
+    font-family: 'Unbounded-Regular';
+  font-size: 52px; 
+  margin-bottom: 36px; 
+  color: #283618; 
+  text-transform: uppercase; 
+} 
+ 
+.prod_names { 
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 15px; 
+} 
+ 
+.prod_names h2 { 
+    font-family: 'Unbounded-Light';
+  font-size: 16.27px; 
+  color: #283618; 
+} 
+ 
+.p_name { 
+  margin-right: 233px; 
+} 
+ 
+.kolvo { 
+  margin-right: 66px; 
+} 
+ 
+.korz_hr { 
+  width: 701px; 
+  height: 1px; 
+  background-color: #d8d8d8; 
+} 
+ 
+.korz_card { 
+  display: flex; 
+  align-items: center; 
+} 
+ 
+.sama_card { 
+  display: flex; 
+  align-items: center; 
+  margin-top: 10px; 
+  gap: 18px; 
+  margin-right: 103px; 
+} 
+ 
+.sama_card_txt { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
+} 
+ 
+.sama_card_txt h3 { 
+  font-family: 'Unbounded-Regular';
+  font-size: 12.85px; 
+  color: #333333; 
+} 
+ 
+.sama_card_txt h4 { 
+    font-family: 'Unbounded-Light'; 
+  font-size: 12.98px; 
+  color: #acacac; 
+} 
+ 
+.col_vo { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-right: 71px; 
+  gap: 19px; 
+} 
+ 
+.col_vo p { 
+    font-family: 'Unbounded-Regular';
+  font-size: 10.9px; 
+  color: #acacac; 
+} 
+ 
+.card_price { 
+  display: flex; 
+  align-items: center; 
+  gap: 52px; 
+} 
+ 
+.card_price h2 { 
+    font-family: 'Unbounded-Regular';
+  font-size: 16.27px; 
+  color: #283618; 
+} 
+ 
+.itog_prices { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 2px; 
+  text-align: right; 
+  margin-top: 32px; 
+} 
+ 
+.itog_prices h3 { 
+    font-family: 'Unbounded-Light';
+  font-size: 16.46px; 
+  color: #333333; 
+} 
+ 
+.itog_prices h4 { 
+    font-family: 'Unbounded-Bold';
+  font-size: 18px; 
+  color: #283618; 
+  text-transform: uppercase; 
+} 
+ 
+.btn_oform { 
+  display: flex; 
+  justify-content: center; 
+  margin-top: 51px; 
+} 
+ 
+.btn_oform a { 
+  background-color: #283618; 
+  padding: 25px 213px; 
+  align-items: center; 
+  color: white; 
+  font-size: 20px; 
+  font-family: 'Unbounded-Regular'; 
+  border-radius: 20px; 
+} 
+
+
+.line3 {
+    width: 100%;
+    height: 2px;
+    background: #333;
+}
+
+
+
+.kroh {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    padding-top: 60px;
+}
+
+.kroh-no {
+    color: #9B9A99;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.kroh-stand {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.line4 {
+    width: 40px;
+    height: 2px;
+    background: #9B9A99;
+}
+
+
+.katalog4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.katalog-block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.katalog-mane {
+    padding-top: 40px;
+}
+
+.katalog-mane h2 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 517px;
+    border-radius: 15px;
+    background: #DED4CB;
+    align-items: center;
+    justify-content: center;
+}
+
+.kat-new {
+    top: 30px;
+    left: 20px;
+    position: absolute;
+    color: #333;
+    font-family: 'Unbounded-Regular';
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    background: #FDF6F2;
+    padding: 5px 13px;
+}
+
+.img-for-card {
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+.img-for-card-first {
+    padding-left: 30px;
+    margin-bottom: -50px;
+}
+
+.cost-text {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 23px;
+}
+
+.price-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.price {
+    color: #333;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.nal {
+    color: #979797;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.card-name {
+    padding-bottom: 40px;
+}
+
+.name-text {
+    padding-top: 20px;
+    color: #333;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.opis-card {
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.katalog-btn-card {
+    color: #FFF;
+    font-family: 'Unbounded-Regular';
+    font-size: 24px;
+    font-weight: 500;
+    width: 194px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 4px solid #333;
+    background: #333;
+    padding: 10px 20px;
+}
+
+
+.stran {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 0 100px 0;
+}
+
+.stran-no {
+    width: 54px;
+    height: 55px;
+    border-radius: 10px;
+    color: #FFF;
+    background: #DED4CB;
+    font-family: 'Unbounded-Regular';
+    font-size: 28px;
+    font-weight: 500;
+    padding: 10px 16px;
+}
+
+.stran-state {
+    width: 54px;
+    height: 55px;
+    border-radius: 10px;
+    color: #FFF;
+    background: #333;
+    font-family: 'Unbounded-Regular';
+    font-size: 28px;
+    font-weight: 500;
+    padding: 10px 16px;
+
+}
+
+
+.line5 {
+    width: 1420px;
+    height: 2px;
+    background: #333;
+}
+
